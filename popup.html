@@ -1,0 +1,160 @@
+<html style=" height:auto">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Session House</title>
+      <style type="text/css">
+         body {
+         margin: 0px;
+         min-width: 400px;
+         font-family: 'Roboto', sans-serif;
+         background: black;
+         }
+         h1 {
+         font-size: 20px;
+         color: white;
+         text-align: center;
+         }
+         span {
+         color: white;
+         }
+         input {
+         width: 100px;
+         }
+         button {
+         background-color: #646464;
+         border: none;
+         border-radius: 3px;
+         color: white;
+         padding: 5px 12px;
+         margin: 5px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 12px;
+         }
+         .wrapper {
+         grid-gap: 0px;
+         grid-template-columns: 200px;
+         grid-template-rows: 15px 40px 15px 40px;
+         }
+         #restoreSection {
+         text-align: center;
+         }
+         #storeSection {}
+         #saveTitle {
+         text-align: left;
+         font-weight: bold;
+         padding-left: 5px;
+         }
+         #saveForm {
+         text-align: center;
+         }
+         #savebtn {}
+         #restoreTitle {
+         font-weight: bold;
+         text-align: left;
+         padding-left: 5px;
+         }
+         #restoreForm {}
+      </style>
+      <script src="jquery-3.2.1.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Roboto">
+      <script src="popup.js"></script>
+   </head>
+   <body style="background-color: #f9f9f9;">
+      <h1 style="
+         padding: 4%;
+         background-color: #444444;
+         ">Session House</h1>
+      <div class="wrapper" style="
+         padding: 2%;
+         ">
+         <div id="storeSection">
+            <div id="saveTitle" style="
+               ">
+               <span style="
+                  color: #444444;
+                  ">Save Current Session</span>
+            </div>
+            <div id="saveForm">
+               <form>
+                  <input type="text" id="sessionname" placeholder="Session Name" required="required" style="
+                     padding: 2%;
+                     width: 65%;
+                     margin: 3%;
+                     border-radius: 3px;
+                     border: none;
+                     height: 40px;
+                     font-size: 18px;
+                     padding-left: 4%;
+                     border: 1px solid #dadada;
+                     margin-right: 8px;
+                     ">
+                  <button id="savebtn" style="
+                     height: 39px;
+                     width: 22%;
+                     font-size: 16px;
+                     ">Save</button>
+               </form>
+            </div>
+         </div>
+         <div id="restoreSection">
+            <div id="restoreTitle">
+               <span style="
+                  color: #444444;
+                  ">Restore Session</span>
+            </div>
+            <div id="restoreForm">
+               <div id="restoreSection" style="
+                  padding: 3%;
+                  padding-left: 5%;
+                  text-align: left;
+                  ">
+                  <div id="list" style="
+                     display: inline-block;
+                     width: 71%;
+                     ">
+                     <select id="SessionList" style="
+                        padding: 3%;
+                        background-color: white;
+                        border-radius: 3px;
+                        border: none;
+                        border: 1px solid #dadada;
+                        font-size: 18px;
+                        color: #757575;
+                        width: 100%;
+                        ">
+                        <option value="dfgdfgdfg">dfgdfgdfg</option>
+                        &lt;
+                        <option value="dsfds">dsfds</option>
+                        &lt;
+                        <option value="hgjghj">hgjghj</option>
+                        &lt;
+                        <option value="session-cool">session-cool</option>
+                        &lt;
+                     </select>
+                  </div>
+                  <div id="Buttons" style="
+                     float: right;
+                     display: inline-block;
+                     ">
+                     <button id="restore" style="
+                        height: 36px;
+                        margin: 0px;
+                        ">
+                     <img src="ic_restore_white_18px.svg" style="vertical-align: middle;">
+                     </button>
+                     <button id="remove" style="
+                        height: 36px;
+                        margin: 0px;
+                        /* margin-left: 10%; */
+                        ">
+                     <img src="ic_delete_white_18px.svg" style="vertical-align: middle;">
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
