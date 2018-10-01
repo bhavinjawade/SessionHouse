@@ -7,11 +7,11 @@ A simple efficient chrome extension to save and restore tabs.
 
 To run the project:
 ```
-Clone the repository <br>
+Clone the repository 
 
-Go to chrome://extensions <br>
+Go to chrome://extensions 
 
-click the load unpackaged <br>
+click the load unpackaged 
 
 Select the project
 ```
