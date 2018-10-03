@@ -1,6 +1,11 @@
 
 <img src="icon_small.png" align="right"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> eaf518002392bba4ea38c81f955137298cb633dd
 # Session-House-Chrome-Extension
+
 A simple efficient chrome extension to save and restore tabs.
 
 ## Getting Started
