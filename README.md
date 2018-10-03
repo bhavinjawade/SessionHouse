@@ -1,4 +1,4 @@
-# Session-House-Chrome-Extension
+# ![GitHub Logo](icon_updated.png) Session-House-Chrome-Extension
 A simple efficient chrome extension to save and restore tabs.
 
 ## Getting Started
