@@ -17,6 +17,8 @@ Clone the repository
 
 Go to chrome://extensions 
 
+enable 'Developer Mode' on upper right 
+
 click the load unpackaged 
 
 Select the project
