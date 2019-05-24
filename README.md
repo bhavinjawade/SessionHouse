@@ -1,7 +1,7 @@
 
 <img src="icon_small.png" align="right"/>
 
-# Session-House-Chrome-Extension
+# Session House: Chrome Extension
 
 A simple efficient open source chrome extension to save and restore tabs.
 
