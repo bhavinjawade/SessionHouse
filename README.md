@@ -3,7 +3,7 @@
 
 # Session-House-Chrome-Extension
 
-A simple efficient chrome extension to save and restore tabs.
+A simple efficient open source chrome extension to save and restore tabs.
 
 ## Getting Started
 
