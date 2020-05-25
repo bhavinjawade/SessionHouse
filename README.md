@@ -13,13 +13,14 @@ A simple efficient open source chrome extension to save and restore tabs.
 
 To run the project:
 ```
-Clone the repository 
+1. Clone the repository:
+git clone https://github.com/bhavinjawade/SessionHouse.git
 
-Go to chrome://extensions 
+2. Go to chrome://extensions 
 
-enable 'Developer Mode' on upper right 
+3. enable 'Developer Mode' on upper right 
 
-click the load unpackaged 
+4. click the load unpackaged 
 
-Select the project
+5. Select the project directory.
 ```
